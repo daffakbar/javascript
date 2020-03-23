@@ -16,23 +16,26 @@ while(tanya == true) {
     if(player == comp){
         hasil = 'SERI!';
     }else if(player == 'gunting'){
-        if(comp == 'kertas'){
-            hasil = 'MENANG :)';
-        }else{
-            hasil = 'KALAH :(';
-        }
+        // if(comp == 'kertas'){
+        //     hasil = 'MENANG :)';
+        // }else{
+        //     hasil = 'KALAH :(';
+        // }
+        hasil = (comp == 'gunting') ? 'MENANG :)' : 'KALAH :(';
     }else if(player == 'kertas'){
-        if(comp == 'batu'){
-            hasil = 'MENANG :)';
-        }else{
-            hasil = 'KALAH :(';
-        }
+        // if(comp == 'batu'){
+        //     hasil = 'MENANG :)';
+        // }else{
+        //     hasil = 'KALAH :(';
+        // }
+        hasil = (comp == 'batu') ? 'MENANG :)' : 'KALAH :(';
     }else if(player == 'batu'){
-        if(comp == 'gunting'){
-            hasil = 'MENANG :)';
-        }else{
-            hasil = 'KALAH :(';
-        }
+        // if(comp == 'gunting'){
+        //     hasil = 'MENANG :)';
+        // }else{
+        //     hasil = 'KALAH :(';
+        // }
+        hasil = (comp == 'gunting') ? 'MENANG :)' : 'KALAH :(';
     }else{
         hasil = 'pilihan anda tidak terdaftar!';
     }

@@ -1,39 +1,4 @@
-// //nyawa player 
-
-// //tebakan player
-// //angka di komputer
-// var comp = Math.floor(Math.random() * 10) + 1;
-// var hasil = '';
-// var i = 1;
-// var run = true;
-// while(run){
-    
-//     var player = prompt('Masukan tebakan anda dari angka 1 - 10');
-//     while(i<=3){
-//         if(player == comp){
-//             alert('TEPAT SEKALI :)');
-//             i = 4;
-//         }else if(player < comp ){
-//             alert('Tebakan anda kurang besar :(');
-//         }else if(player > comp){
-//             alert('Tebakan anda kurang kecil :(');
-//         }else{
-//             alert('Masukan anda salah!');
-//         }
-//         if(i==3){
-//             alert('Kamu kalah angkanya adalah '+comp);
-//         }else if(i==4) {
-//             alert('ANDA HEBAT')
-//         }else{
-//             alert('Tetap semangat! nyawa anda ' + i);
-
-//         }
-//         i++;
-        
-//     }
-
-//     run = confirm('Coba lagi?')
-// }
+// 
 
 
 
